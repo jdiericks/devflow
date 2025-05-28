@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Workspace & Membership Rules
+
+- A user can create a workspace
+- A workspace has many members with roles: admin, editor, viewer
+- Workspace access is scoped via a `workspace_members` table
+- Projects and templates belong to a workspace
+

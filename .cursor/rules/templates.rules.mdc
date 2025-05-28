@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Template & Field Rules
+
+- Templates belong to a workspace
+- Each template has fields (name, label, type, required, default_value, etc)
+- Field types supported: text, rich_text, select, multi_select, image, date, number, boolean
+- Templates can be reused when creating pages
+- Pages store field values in a `data` JSONB column
+

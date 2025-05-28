@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Page, Folder & Tree Rules
+
+- Projects contain folders and pages in a nested structure
+- Use a single `nodes` table with parent-child relationships
+- Each node is either a 'folder' or a 'page'
+- Pages link to a template_id and store values in a JSONB `data` field
+- Nodes have a sort_order field for manual ordering
+

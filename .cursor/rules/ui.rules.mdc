@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# UI Rules
+
+- Use Vue 3 + Tailwind
+- Include dynamic form component that renders based on template fields
+- Sidebar navigation shows recursive tree of folders/pages
+- Breadcrumb component shows current page path
+- Page editor loads template definition and renders a form
+- Auto-save form as user types
+

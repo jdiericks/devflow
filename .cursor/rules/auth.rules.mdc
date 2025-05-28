@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Auth Rules
+
+- Use Supabase Auth (email/password + magic link)
+- Users can join multiple workspaces
+- User data is stored in a `users` table with metadata like name, avatar, etc
+
